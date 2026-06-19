@@ -116,7 +116,7 @@ function Hero() {
         <img
           src={logoAsset}
           alt="Smart Trader — Projeto Liberdade"
-          className="mx-auto w-48 sm:w-64 md:w-72 rounded-full aspect-square object-cover animate-fade-up drop-shadow-[0_0_40px_rgba(184,134,47,0.25)]"
+          className="mx-auto w-64 sm:w-80 md:w-96 rounded-full aspect-square object-cover animate-fade-up drop-shadow-[0_0_40px_rgba(184,134,47,0.25)]"
           style={{ animationDelay: "80ms" }}
         />
         <p
