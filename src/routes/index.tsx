@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 import { CandlestickDivider } from "@/components/CandlestickDivider";
 import { HeroCandles } from "@/components/HeroCandles";
-import logoAsset from "@/assets/smart-trader-logo.png.asset.json";
+import logoAsset from "@/assets/smart-trader-logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -114,7 +114,7 @@ function Hero() {
       <HeroCandles />
       <div className="relative mx-auto max-w-5xl px-5 text-center sm:px-8">
         <img
-          src={logoAsset.url}
+          src={logoAsset}
           alt="Smart Trader — Projeto Liberdade"
           className="mx-auto w-48 sm:w-64 md:w-72 rounded-full aspect-square object-cover animate-fade-up drop-shadow-[0_0_40px_rgba(184,134,47,0.25)]"
           style={{ animationDelay: "80ms" }}
